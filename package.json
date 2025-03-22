@@ -1,0 +1,22 @@
+{
+  "name": "codethatworks.io",
+  "version": "1.0.0",
+  "description": "The official website of codethatworks.io",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeThatWorksIO/codethatworks.io.git"
+  },
+  "author": "Michael Campo",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/CodeThatWorksIO/codethatworks.io/issues"
+  },
+  "homepage": "https://github.com/CodeThatWorksIO/codethatworks.io#readme",
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
