@@ -1,4 +1,4 @@
-import type {ReactNode} from 'react';
+import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
@@ -42,7 +42,7 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -58,14 +58,27 @@ function Feature({title, Svg, description}: FeatureItem) {
 
 export default function HomepageFeatures(): ReactNode {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+
+    <div className="container mx-auto text-center py-10 px-4">
+      <section className="mb-12">
+        <h2 className="text-3xl font-semibold">Join the Movement</h2>
+        <p className="mt-3 text-lg">Together, we can tackle the world's biggest problems through the power of code.</p>
+        <div className="mt-6 flex justify-center gap-6">
+          <a href="https://discord.gg/RKxKVrW3" className="bg-blue-500 px-5 py-3 rounded-lg text-white hover:bg-blue-600">Join Discord</a>
+          <a href="https://x.com/codethatworksio" className="bg-gray-700 px-5 py-3 rounded-lg text-white hover:bg-gray-800">Follow on Twitter</a>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-3xl font-semibold">Read the Blog</h2>
+        <p className="mt-3 text-lg">Stay updated with the latest in software development and problem-solving strategies.</p>
+        <a href="https://blog.codethatworks.io" className="mt-6 inline-block bg-green-500 px-5 py-3 rounded-lg text-white hover:bg-green-600">Visit Blog</a>
+      </section>
+
+      <section className="mb-12">
+        <h2 className="text-3xl font-semibold">Our Vision</h2>
+        <p className="mt-3 text-lg">We believe that if coders unite, there’s nothing we can’t accomplish. Whether it’s improving education, tackling climate change, or advancing technology, we can make a difference—together.</p>
+      </section>
+    </div>
   );
 }
