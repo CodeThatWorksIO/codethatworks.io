@@ -60,7 +60,7 @@ export default function HomepageFeatures(): ReactNode {
   return (
 
     <div className="container mx-auto text-center py-10 px-4">
-      <section className="mb-12">
+      <section className="mb-12 mt-12">
         <h2 className="text-3xl font-semibold">Join the Movement</h2>
         <p className="mt-3 text-lg">Together, we can tackle the world's biggest problems through the power of code.</p>
         <div className="mt-6 flex justify-center gap-6">
