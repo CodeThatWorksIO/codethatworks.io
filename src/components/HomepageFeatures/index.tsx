@@ -64,7 +64,7 @@ export default function HomepageFeatures(): ReactNode {
         <h2 className="text-3xl font-semibold">Join the Movement</h2>
         <p className="mt-3 text-lg">Together, we can tackle the world's biggest problems through the power of code.</p>
         <div className="mt-6 flex justify-center gap-6">
-          <a href="https://discord.gg/RKxKVrW3" className="bg-blue-500 px-5 py-3 rounded-lg text-white hover:bg-blue-600">Join Discord</a>
+          <a href="https://discord.gg/nrgs7p8Q" className="bg-blue-500 px-5 py-3 rounded-lg text-white hover:bg-blue-600">Join Discord</a>
           <a href="https://x.com/codethatworksio" className="bg-gray-700 px-5 py-3 rounded-lg text-white hover:bg-gray-800">Follow on Twitter</a>
         </div>
       </section>
